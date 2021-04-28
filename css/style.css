@@ -1,0 +1,61 @@
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+/*header*/
+header{
+    background-color: #1b1b26;
+    padding: 10px;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+}
+
+/*main*/
+main{
+    background-color: #11111a;
+    
+}
+
+.container-cards{
+    
+    padding: 50px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+/*card*/
+
+.card{
+    width: calc( ( 100% / 7 ) - 1% );
+    padding: 15px;
+    background-color: #1b1b26;
+    margin: 0 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.card .title{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    margin: 10px 0;
+}
+
+.card .author,
+.card .year{
+    color: gray;
+    font-size: 18px; ;
+}
