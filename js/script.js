@@ -19,6 +19,11 @@ var app = new Vue(
                 //console.log(result);
                 this.albums = result.response;
                 //console.log(this.albums);
+
+                this.albums.sort((a,b)=>{
+                    return a.year - b.year;
+                })
+                //console.log(this.albums);
             })
 
         }
